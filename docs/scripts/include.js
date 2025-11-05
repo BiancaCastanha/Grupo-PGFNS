@@ -8,6 +8,9 @@ async function includeHTML() {
       if (resp.ok) {
         const html = await resp.text();
         el.innerHTML = html;
+        if (typeof applySiteLinks === 'function') {
+          applySiteLinks();
+        }
         if (file.includes('header.html')){
             highlightCurrentPage();
         }

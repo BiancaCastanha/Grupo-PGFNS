@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sobre Nós - Pequena e Grande Família de Nossa Senhora</title>
   <link rel="stylesheet" href="styles/style.css" />
-  <script src="include.js" defer></script>
 </head>
 <body>
   <header data-include="components/header.html"></header>
@@ -14,13 +13,14 @@
     <section class="card-section">
       <h2 class="section-title">Sobre Nós</h2>
       <div class="card-content about">
-        <div class="card-text">
-          <p>A <strong>Pequena e Grande Família de Nossa Senhora</strong> é um grupo católico voltado à vivência da fé, à oração e à caridade cristã. 
-          Fundado com o propósito de unir corações em torno da espiritualidade mariana, o grupo realiza encontros, formações e ações solidárias, inspiradas no amor maternal de Maria.</p>
-          <p>Buscamos fortalecer a presença de Deus em nossas famílias, promovendo a comunhão, a partilha e o serviço ao próximo.</p>
-        </div>
         <div class="card-image">
           <img src="images/NSa-Rosa-Mistica.jpeg" alt="Imagem do grupo" />
+        </div>
+        <div class="card-text">
+          <p>Nas Sagradas Escrituras o Profeta Joel, cerca do ano 400 a.C., prediz que na era escatológica, ou seja, nos “finais dos tempos”, haveria a efusão do Espírito Santo sobre todo o povo de Deus: “derramarei o meu espírito sobre toda a carne. Vossos filhos e vossas filhas profetizarão, vossos anciãos terão sonhos, vossos jovens terão visões” (Jl 3,1). O que se observa é que isto já está acontecendo e tem levado Nossa Senhora a se preocupar conosco diante das suas múltiplas aparições e mensagens em vários lugares da terra, marcadamente a partir do século passado (séc. XX). Ela tem pedido insistentemente por oração, conversão, penitência e sacrifício como meios de salvação.</p>
+          <p>A humanidade tem se deixado levar pelo pecado, isto é, por sua insistente recusa a Deus, sobrevalorizando os bens materiais e lutando por prestigiosas posições sociais, e o que é pior, desprezando por completa a vida.</p>
+          <p>Podemos datar o começo da Pequena e Grande Família de Nossa Senhora como sendo em 8 de outubro de 1989, quando Reinaldo Galvão teve a sua primeira "locução interior", isto é, quando escutou Nossa Senhora lhe falando pela primeira vez. Ele foi escolhido não por seus méritos, mas pela vontade Dela e de seu Filho Jesus. Esta Pequena e Grande Família foi assim denominada pela própria Nossa Senhora. A partir de então, Reinaldo tem se comunicado com várias pessoas do céu, principalmente com Jesus e Nossa Senhora, através deste fenômeno místico extraordinário. Convém dizer que desta família e grupo de oração pertencem também pessoas não ligadas por parentesco, pelas laços de sangue.</p>
+          <p>Reinaldo pode ser considerado um místico completo, pois recebe do céu graças gratuitas através de locuções interiores com visões imaginativas e intelectuais, conforme asseverado pelo seu Confessor Espiritual, Pe. Frei Francisco de Lima, O. Carm., já falecido.</p>
         </div>
       </div>
     </section>
@@ -30,7 +30,7 @@
       <p>Assista aos vídeos com mensagens, formações e registros dos encontros da 
       <strong>Pequena e Grande Família de Nossa Senhora</strong>.</p>
       
-      <a href="https://youtube.com/@SeuCanal" 
+      <a data-youtube 
         target="_blank" 
         class="btn-youtube">
         Visitar Canal no YouTube
@@ -40,4 +40,6 @@
 
   <footer data-include="components/footer.html"></footer>
 </body>
+<script src="scripts/config.js"></script>
+<script src="scripts/include.js"></script>
 </html>

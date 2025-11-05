@@ -5,65 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Produtos | Pequena e Grande Família de Nossa Senhora</title>
   <link rel="stylesheet" href="styles/style.css">
-  <script src="include.js" defer></script>
 </head>
 <body>
 
   <header data-include="components/header.html"></header>
 
-  <main class="card-section">
-    <section class="produtos-intro">
-      <h1 class="section-title">Nossos Produtos</h1>
-      <p>Adquirindo qualquer um dos nossos produtos, você ajuda a manter as atividades do grupo <strong>Pequena e Grande Família de Nossa Senhora</strong>. Entre em contato pelo WhatsApp para realizar sua compra.</p>
+  <main>
+    <section class="card-section">
+      <div class="produtos-intro">
+        <h1 class="section-title">Nossos Produtos</h1>
+        <p>Adquirindo qualquer um dos nossos produtos, você ajuda a manter as atividades do grupo <strong>Pequena e Grande Família de Nossa Senhora</strong>. Entre em contato pelo WhatsApp para realizar sua compra.</p>
+      </div>
+
+      <div class="produtos-grid">
+        <div class="produto-card">
+          <img src="images/produtos/Livro-01.jpg" alt="Livro - A Caminhada - Vol.01">
+          <h2>Livro - A Caminhada - Vol.01</h2>
+          <p>Livro com as mensagens recebidas passadas por Jesus, Nossa Senhora, Anjos e Santos para Reinaldo Galvão </p>
+        </div>
+
+        <div class="produto-card">
+          <img src="images/produtos/Livro-03.jpg" alt="Livro - A Caminhada - Vol.02">
+          <h2>Livro - A Caminhada - Vol.02</h2>
+          <p>Livro com as mensagens recebidas passadas por Jesus, Nossa Senhora, Anjos e Santos para Reinaldo Galvão.</p>
+        </div>
+
+        <div class="produto-card">
+          <img src="images/produtos/Livro-03.jpg" alt="Livro - A Caminhada - Vol.03">
+          <h2>Livro - A Caminhada - Vol.03</h2>
+          <p>Livro com as mensagens recebidas passadas por Jesus, Nossa Senhora, Anjos e Santos para Reinaldo Galvão.</p>
+        </div>
+
+        <div class="produto-card">
+          <img src="images/produtos/Banner-Espinheiros.jpg" alt="Banner Nossa Senhora dos Espinheiros">
+          <h2>Terço Rosa Mística</h2>
+          <p>Terço artesanal abençoado, confeccionado com amor pelos membros do grupo.</p>
+        </div>
+
+        <div class="produto-card">
+          <img src="images/produtos/Camisa-Espinheiros.jpg" alt="Camisa Nossa Senhora dos Espinheiros">
+          <h2>Camiseta do Grupo</h2>
+          <p>Camiseta oficial do grupo em tecido leve e confortável. Diversos tamanhos disponíveis.</p>
+        </div>
+
+        <div class="produto-card">
+          <img src="images/produtos/Camisa-Sao-Miguel.jpg" alt="Camisa São Miguel Arcanjo">
+          <h2>Imagem de Nossa Senhora</h2>
+          <p>Pequena imagem devocional de Nossa Senhora, ideal para oratórios e presentes.</p>
+        </div>
+      </div>
+      <div class="contato-whatsapp">
+          <p>Gostou de algum produto?</p>
+          <a data-whatsapp
+            target="_blank"
+            class="btn-whatsapp">
+            Fale Conosco pelo WhatsApp
+          </a>
+      </div>
     </section>
-
-    <section class="produtos-grid">
-      <div class="produto-card">
-        <img src="images/produtos/Livro-01.jpg" alt="Livro - A Caminhada - Vol.01">
-        <h2>Livro - A Caminhada - Vol.01</h2>
-        <p>Livro com as mensagens recebidas passadas por Jesus, Nossa Senhora, Anjos e Santos para Reinaldo Galvão </p>
-      </div>
-
-      <div class="produto-card">
-        <img src="images/produtos/Livro-03.jpg" alt="Livro - A Caminhada - Vol.02">
-        <h2>Livro - A Caminhada - Vol.02</h2>
-        <p>Livro com as mensagens recebidas passadas por Jesus, Nossa Senhora, Anjos e Santos para Reinaldo Galvão.</p>
-      </div>
-
-      <div class="produto-card">
-        <img src="images/produtos/Livro-03.jpg" alt="Livro - A Caminhada - Vol.03">
-        <h2>Livro - A Caminhada - Vol.03</h2>
-        <p>Livro com as mensagens recebidas passadas por Jesus, Nossa Senhora, Anjos e Santos para Reinaldo Galvão.</p>
-      </div>
-
-      <div class="produto-card">
-        <img src="images/produtos/Banner-Espinheiros.jpg" alt="Banner Nossa Senhora dos Espinheiros">
-        <h2>Terço Rosa Mística</h2>
-        <p>Terço artesanal abençoado, confeccionado com amor pelos membros do grupo.</p>
-      </div>
-
-      <div class="produto-card">
-        <img src="images/produtos/Camisa-Espinheiros.jpg" alt="Camisa Nossa Senhora dos Espinheiros">
-        <h2>Camiseta do Grupo</h2>
-        <p>Camiseta oficial do grupo em tecido leve e confortável. Diversos tamanhos disponíveis.</p>
-      </div>
-
-      <div class="produto-card">
-        <img src="images/produtos/Camisa-Sao-Miguel.jpg" alt="Camisa São Miguel Arcanjo">
-        <h2>Imagem de Nossa Senhora</h2>
-        <p>Pequena imagem devocional de Nossa Senhora, ideal para oratórios e presentes.</p>
-      </div>
-    </section>
-    <div class="contato-whatsapp">
-        <p>Gostou de algum produto?</p>
-        <a href="https://wa.me/5581999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20do%20grupo."
-           target="_blank"
-           class="btn-whatsapp">
-          Fale Conosco pelo WhatsApp
-        </a>
-      </div>
+    
   </main>
 
   <footer data-include="components/footer.html"></footer>
 </body>
+<script src="scripts/config.js"></script>
+<script src="scripts/include.js"></script>
+
 </html>

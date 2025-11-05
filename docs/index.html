@@ -5,19 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pequena e Grande Família de Nossa Senhora</title>
   <link rel="stylesheet" href="styles/style.css" />
-  <script src="include.js" defer></script>
 </head>
 <body>
   <header data-include="components/header.html"></header>
 
   <main>
-    <!-- Seção Quem Somos -->
     <section class="card-section">
       <h2 class="section-title">Quem Somos?</h2>
       <div class="card-content">
         <div class="card-text">
-          <p>Somos um grupo católico dedicado à evangelização e ao fortalecimento da fé cristã. 
-          Nosso propósito é criar momentos de oração, partilha e união para que cada pessoa se sinta parte da Família de Nossa Senhora.</p>
+          <p>A Pequena e Grande Família de Nossa Senhora surgiu em 8 de outubro de 1989, a partir das experiências místicas de Reinaldo Galvão, chamadas locuções interiores. Desde então, o grupo se dedica à oração, à conversão e à vivência do amor de Deus, atendendo ao apelo de Nossa Senhora por um mundo mais espiritual e fraterno.</p>
           <a href="about.html" class="btn">Saiba Mais</a>
         </div>
         <div class="card-image">
@@ -26,12 +23,11 @@
       </div>
     </section>
 
-    <!-- Seção Contato -->
     <section class="apps-section">
       <h2 class="section-title">Fale Conosco</h2>
       <p>Entre em contato conosco pelo WhatsApp e saiba mais sobre nossos encontros, produtos e atividades.</p>
   
-      <a href="https://wa.me/5500000000000" target="_blank" class="btn-whatsapp">
+      <a data-whatsapp target="_blank" class="btn-whatsapp">
         Conversar pelo WhatsApp
       </a>
     </section>
@@ -39,4 +35,6 @@
 
   <footer data-include="components/footer.html"></footer>
 </body>
+<script src="scripts/config.js"></script>
+<script src="scripts/include.js"></script>
 </html>
