@@ -1,19 +1,21 @@
+/* ===== HEADER ELEGANTE MINIMALISTA ===== */
+
 header {
-  background-color: #111a57;
-  padding: 40px 0;
+  background-color: #f9f7f4;
+  border-bottom: 3px solid #d4af37;
+  padding: 20px 0;
   position: relative;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .header-container {
-  background-color: #c67c62;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 40px;
   position: relative;
-  z-index: 1;
 }
 
 .logo {
@@ -21,11 +23,11 @@ header {
 }
 
 .logo img {
-  position: absolute;
-  top: -60px;
-  height: 120px;
-  border-radius: 45%;
-  z-index: 2;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid #d4af37;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  background-color: #fff;
 }
 
 .titulo {
@@ -34,9 +36,16 @@ header {
   align-items: center;
   justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111a57;
+}
+
+.titulo h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .titulo h4 {
   font-size: 0.9rem;
   font-weight: 400;
+  color: #555;
 }

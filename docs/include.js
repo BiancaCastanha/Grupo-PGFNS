@@ -22,11 +22,11 @@ async function includeHTML() {
 
 function highlightCurrentPage(){
     const links = document.querySelectorAll('nav a');
-    const path = window.location.pathname;
+    const path = window.location.pathname.split('/').pop();;
     links.forEach(link => {
         const linkPath = link.getAttribute('href');
 
-        if (path.endsWith(linkPath)) {
+        if (path === linkPath || (path === '' && linkPath.includes('index.html'))) {
             link.classList.add('ativo');
         }
     });

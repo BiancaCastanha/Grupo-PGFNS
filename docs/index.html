@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pequena e Grande Família de Nossa Senhora</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <script src="include.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pequena e Grande Família de Nossa Senhora</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="include.js" defer></script>
 </head>
 <body>
   <header data-include="components/header.html"></header>
 
   <main>
-    <section class="quem-somos">
-      <h2>Quem Somos?</h2>
-      <div class="conteudo">
-        <div class="resumo">
-          <p>Breve resumo sobre o grupo ...</p>
-          <a href="#">Saiba mais</a>
+    <!-- Seção Quem Somos -->
+    <section class="card-section">
+      <h2 class="section-title">Quem Somos?</h2>
+      <div class="card-content">
+        <div class="card-text">
+          <p>Somos um grupo católico dedicado à evangelização e ao fortalecimento da fé cristã. 
+          Nosso propósito é criar momentos de oração, partilha e união para que cada pessoa se sinta parte da Família de Nossa Senhora.</p>
+          <a href="about.html" class="btn">Saiba Mais</a>
         </div>
-        <div class="imagem-grupo">
-          <p>IMAGEM<br>GRUPO</p>
+        <div class="card-image">
+          <img src="images/NSa-Rosa-Mistica.jpeg" alt="Imagem do grupo" />
         </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
-      <h2>Fale Conosco</h2>
-      <form>
-        <div class="duplo">
-          <input type="text" placeholder="Nome" />
-          <input type="text" placeholder="Sobrenome" />
-        </div>
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Mensagem"></textarea>
-      </form>
+    <!-- Seção Contato -->
+    <section class="apps-section">
+      <h2 class="section-title">Fale Conosco</h2>
+      <p>Entre em contato conosco pelo WhatsApp e saiba mais sobre nossos encontros, produtos e atividades.</p>
+  
+      <a href="https://wa.me/5500000000000" target="_blank" class="btn-whatsapp">
+        Conversar pelo WhatsApp
+      </a>
     </section>
   </main>
 
