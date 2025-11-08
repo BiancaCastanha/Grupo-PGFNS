@@ -35,8 +35,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #111a57;
 }
 
 .titulo h3 {
