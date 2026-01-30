@@ -32,7 +32,7 @@ main {
 }
 
 .card-content.about {
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 .card-text {
